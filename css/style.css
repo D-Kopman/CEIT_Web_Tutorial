@@ -1,0 +1,122 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+.jumbotron {
+  padding      : 15px;
+  margin-bottom: 0;
+  background   : #603813;
+  /* fallback for old browsers */
+  background   : -webkit-linear-gradient(to right, #b29f94, #603813);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background   : linear-gradient(to right, #b29f94, #603813);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.col-sm-3 .ceit-logo {
+  width : 90px;
+  height: 90px;
+}
+
+.col-sm-3 .upng-logo {
+  width : 90px;
+  height: 90px;
+}
+/* Background Image css */
+
+.bg-image {
+  background-image   : url("../images/aeroplane.jpg");
+  background-color   : #cccccc;
+  height             : 500px;
+  background-repeat  : no-repeat;
+  background-position: center;
+  background-size    : cover;
+  position           : relative;
+}
+
+.bg-text {
+  position  : absolute;
+  top       : 60%;
+  left      : 20%;
+  color     : #fff;
+  /*transform : translate(-50%,-50%);*/
+  text-align: center;
+}
+/* Body Section */
+
+.row {
+  display: flex;
+}
+
+.row .column1 {
+  width           : 25%;
+  background-color: #76D7C4;
+  padding         : 15px;
+}
+
+.row .column2 {
+  width           : 50%;
+  background-color: #ABB2B9;
+  padding         : 15px;
+}
+
+.row .column3 {
+  width           : 25%;
+  background-color: #76D7C4;
+}
+
+.course_items {
+  list-style-type: none;
+}
+
+.course_items li {
+  padding: 10px;
+}
+
+.course_items li a {
+  text-decoration: none;
+  font-size      : 20px;
+  font-weight    : bold;
+}
+
+.course_items li a:hover {
+  text-decoration : underline;
+  background-color: #f1f1f1;
+}
+/* css for social links */
+
+.social-links {
+  font-size: 20px;
+  padding  : 250px;
+}
+
+.column2 p {
+  font-size  : 20px;
+  font-family: 'Roboto' , 'sans-serif' , 'serif';
+}
+/* CSS for Footer Section */
+
+.footer {
+  display         : flex;
+  background-color: #196F3D;
+}
+
+.courses {
+  color  : #fff;
+  margin : 40px;
+  padding: 40px;
+}
+
+.contact-info {
+  color  : #fff;
+  margin : 40px;
+  padding: 40px;
+}
+
+.brochure {
+  color  : #fff;
+  margin : 40px;
+  padding: 40px;
+}
